@@ -1,7 +1,7 @@
 # wx-tree
  小程序树形组件 下拉框
 # 借鉴
- [原项目]([https://github.com/Kittyelf/wx_treeSelect]) （若作者介意可删此项目） 很多代码百度CV 缝缝补补 封装的也比较烂 不过能跑就行
+ [原项目](https://github.com/Kittyelf/wx_treeSelect) （若作者介意可删此项目） 很多代码百度CV 缝缝补补 封装的也比较烂 不过能跑就行
 # 效果图
 ![image](https://github.com/user-attachments/assets/e7b8624b-2f97-4fa9-abe9-9caae9516101)
 # 使用代码
