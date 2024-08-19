@@ -5,7 +5,7 @@
 # 效果图
 ![image](https://github.com/user-attachments/assets/e7b8624b-2f97-4fa9-abe9-9caae9516101)
 # 使用代码
-![image](https://github.com/user-attachments/assets/ddc9d7ea-218c-4f0a-872f-51fa4212e6e9) \n
+![image](https://github.com/user-attachments/assets/ddc9d7ea-218c-4f0a-872f-51fa4212e6e9) \
 ![image](https://github.com/user-attachments/assets/d6114d3a-75ed-4154-9041-c5b6a24b45e3)
 
 
