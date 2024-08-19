@@ -1,0 +1,2 @@
+<tree wx:for='{{ tree }}' isMultiple ="{{isMultiple }}" open="{{open}}" isActivateCheckbox="{{isActivateCheckbox}}" wx:key='id' model='{{ item }}' bind:tapitem='tapItem' bind:selectBoxBase='selectBoxBase'>
+</tree>

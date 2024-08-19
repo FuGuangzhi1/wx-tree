@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "树形下拉框",
+  "usingComponents": {
+    "treeSelect": "/components/treeSelect/treeSelect",
+    "tree": "/components/mytree-list/mytree-list"
+  }
+}

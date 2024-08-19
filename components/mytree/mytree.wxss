@@ -1,0 +1,27 @@
+/* pages/components/mytree/mytree.wxss */
+.container {
+  font-size: 30rpx;
+  color: #333;
+}
+
+.item-sImg {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+}
+
+.a {
+  float: right;
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+  background-image: url("data:image/svg+xml,%3Csvg t='1723860921987' class='icon' viewBox='0 0 1024 1024' version='1.1' xmlns='http://www.w3.org/2000/svg' p-id='5144' width='16' height='16'%3E%3Cpath d='M873.59 960H150.41C102.73 960 64 921.27 64 873.59V150.41C64 102.73 102.73 64 150.41 64h723.18c47.68 0 86.41 38.73 86.41 86.41v723.17c0 47.69-38.73 86.42-86.41 86.42zM150.68 116.95c-18.44 0-33.72 15.02-33.72 33.72v723.17c0 18.44 15.02 33.72 33.72 33.72h723.18c18.44 0 33.72-15.02 33.72-33.72V150.68c0-18.44-15.02-33.72-33.72-33.72H150.68z' p-id='5145' fill='%232c2c2c'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.b {
+  float: right;
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+  background-image: url("data:image/svg+xml,%3Csvg t='1723860746885' class='icon' viewBox='0 0 1024 1024' version='1.1' xmlns='http://www.w3.org/2000/svg' p-id='4736' width='16' height='16'%3E%3Cpath d='M170.666667 128h682.666666a42.666667 42.666667 0 0 1 42.666667 42.666667v682.666666a42.666667 42.666667 0 0 1-42.666667 42.666667H170.666667a42.666667 42.666667 0 0 1-42.666667-42.666667V170.666667a42.666667 42.666667 0 0 1 42.666667-42.666667z m42.666666 85.333333v597.333334h597.333334V213.333333H213.333333z m256.128 469.333334L288.426667 501.632l60.330666-60.330667 120.704 120.704 241.322667-241.365333 60.373333 60.330667L469.461333 682.666667z' p-id='4737' fill='%231296db'%3E%3C/path%3E%3C/svg%3E");
+}

@@ -1,0 +1,13 @@
+<!--components/mytree/mytree.wxml-->
+<view class="container">
+  <view style="padding:5rpx 0;">
+    <image wx:if='{{ isBranch }}' bindtap='toggle' src="{{ open ? '/image/show_less.png' : '/image/show_more.png'}}" class='item-sImg'></image>
+    <image wx:else src='/image/page_turning_right.png' class='item-sImg'></image>
+    <title bindtap='tapItem' data-itemid='{{ model.id }}' data-value='{{ model.title }}'>{{ model.title }}</title>
+    <title bindtap='selectBox' wx:if="{{isActivateCheckbox}}" data-itemid='{{ model.id }}' class="{{ model.isActivateCheckbox?'b':'a'}}"></title>
+  </view>
+  <view style='padding-left: 25rpx;' wx:if='{{ isBranch }}' hidden='{{ !open }}'>
+    <mytree wx:if="{{model.children.length}}" wx:for='{{ model.children }}' wx:key='id' isActivateCheckbox="{{isActivateCheckbox}}" model='{{ item }}'></mytree>
+  </view>
+
+</view>

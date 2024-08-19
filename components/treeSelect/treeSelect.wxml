@@ -1,0 +1,15 @@
+<view class='com-selectBox'>
+  <view class='com-sContent' bindtap='selectToggle'>
+    <view class='com-sTxt'>{{nowText}}</view>
+    <image src='/image/show_more.png' class='com-sImg'></image>
+  </view>
+
+  <view class='com-sList' wx:if="{{selectShow}}">
+    <view hidden='{{ !openSelect }}' style="height: 200px;overflow: scroll;">
+      <mytree wx:for='{{ tree }}'  open="{{open}}"  isMultiple ="{{isMultiple }}" isActivateCheckbox="{{isActivateCheckbox}}" wx:key='id' model='{{ item }}' bind:tapitem='tapItem' bind:selectBoxBase='selectBoxBase'>
+      </mytree>
+    </view>
+    <button class="button-tree" bindtap="onOk" wx:if="{{isActivateCheckbox}}">确定</button>
+  </view>
+
+</view>

@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <treeSelect bind:onOk='onOk' open="{{true}}" isMultiple ="{{true}}" isActivateCheckbox="{{true}}" model='{{selectArray}}' bind:tapitem='tapItem'></treeSelect>
+</view>
+<view style="height: 399px;"></view>
+<tree isMultiple ="{{true}}" isActivateCheckbox="{{true}}" open="{{false}}" wx:key='id' model='{{ selectArray }}' bind:tapitem='tapItem' bind:selectBox='selectBox'>
+</tree>
+<!--  isActivateCheckbox 是否启用复选框 
+      isMultiple  是否多选 
+      open默认是否展开 
+      model数据格式 { id:0 ,pid:0 }
+      tapitem 树文字点击事件 
+      selectBox 复选框选择事件
+      onOk 确定按钮点击事件
+      -->
